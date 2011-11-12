@@ -17,10 +17,12 @@ name: File-chmod-Recursive
 provides:
   File::chmod::Recursive:
     file: lib/File/chmod/Recursive.pm
-    version: 0.03
+    version: 0.04
+requires:
+  File::chmod: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=File-chmod-Recursive
   homepage: https://github.com/mithun/perl-file-chmod-recursive
   license: http://dev.perl.org/licenses/
   repository: git://github.com/mithun/perl-file-chmod-recursive.git
-version: 0.03
+version: 0.04
